@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Righteous&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(90deg, rgba(68,39,27,1) 0%, rgba(73,48,31,1) 36%, rgba(131,105,70,1) 100%);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 250px;
+    margin-left: 100px;
+
+}
+
+.logotipo{
+    height: 50px;
+}
+
+.titulo{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.menu-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.menu-top-item{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.principal{
+    border-top: 0.4px solid antiquewhite;
+}
+
+.principal-1{
+    display: flex; 
+    justify-content: space-around;    
+    padding: 45px;
+
+
+}
+
+.principal-conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.principal-item-titulo{
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+}
+
+.principal-item-subtitulo{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.principal-btn{
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.bixinho{
+    height: 250px;
+}
+
+
+
+
+
